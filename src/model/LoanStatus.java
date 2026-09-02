@@ -1,4 +1,6 @@
 package model;
 
-public class LoanStatus {
+public enum LoanStatus {
+    ACTIVE,
+    RETURNED
 }

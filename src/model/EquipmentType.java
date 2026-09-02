@@ -1,4 +1,7 @@
 package model;
 
-public class EquipmentType {
+public enum EquipmentType {
+    LAPTOP,
+    CAMERA,
+    MICROPHONE
 }
