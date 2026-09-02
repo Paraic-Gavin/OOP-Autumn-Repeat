@@ -9,4 +9,10 @@ import java.util.List;
 public class LoanService {
     private final LoanRepository repository;
 
+    public LoanService(LoanRepository repository){
+        this.repository = repository;
+    }
+
+    public Loan createloan(Loan loan)
+if (loan.getEquipmentType(== equipmentType)
 }
